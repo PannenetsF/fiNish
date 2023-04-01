@@ -7,15 +7,6 @@
 
 import SwiftUI
 
-//@main
-//struct fishtimeApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
-
 @main
 struct fishtimeApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate

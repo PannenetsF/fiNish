@@ -7,41 +7,12 @@
 
 import SwiftUI
 
-//struct SettingsView: View {
-//    @AppStorage("closingTime") var closingTime: String = ""
-//    var onClosingTimeChanged: (() -> Void)?
-//
-//    var body: some View {
-//        VStack {
-//            HStack {
-//                Text("下班时间")
-//                Spacer()
-//                DatePicker(
-//                    "",
-//                    selection: Binding(get: {
-//                        let formatter = DateFormatter()
-//                        formatter.dateFormat = "HH:mm"
-//                        return formatter.date(from: closingTime) ?? Date()
-//                    }, set: { date in
-//                        let formatter = DateFormatter()
-//                        formatter.dateFormat = "HH:mm"
-//                        closingTime = formatter.string(from: date)
-//                        onClosingTimeChanged?()
-//                    }),
-//                    displayedComponents: .hourAndMinute
-//                )
-//                .labelsHidden()
-//            }
-//            Spacer()
-//        }
-//        .padding()
-//    }
-//}
 struct SettingsView: View {
     @AppStorage("closingTime") var closingTime: String = ""
     var onClosingTimeChanged: (() -> Void)?
-    @State private var editedClosingTime: String = ""
-
+    @State private var editedClosingHour: String = ""
+    @State private var editedClosingMinute: String = ""
+    
     var body: some View {
         VStack {
             HStack {
@@ -50,25 +21,42 @@ struct SettingsView: View {
             }
             HStack {
                 Text("下班时间")
+                    .frame(width: 70)
                 Spacer()
-                TextField("HH:mm", text: $editedClosingTime)
-                    .frame(width: 80)
-                    .multilineTextAlignment(.center)
+                Picker("小时", selection: $editedClosingHour) {
+                    ForEach(0..<24) { hour in
+                        Text(String(format: "%02d", hour))
+                            .tag(String(format: "%02d", hour))
+                    }
+                }
+                .frame(width: 50)
+                .labelsHidden()
+                Picker("分钟", selection: $editedClosingMinute) {
+                    ForEach(0..<60) { minute in
+                        Text(String(format: "%02d", minute))
+                            .tag(String(format: "%02d", minute))
+                    }
+                }
+                .frame(width: 50)
+                .labelsHidden()
                 Button("确认") {
                     let formatter = DateFormatter()
                     formatter.dateFormat = "HH:mm"
-                    if let date = formatter.date(from: editedClosingTime) {
+                    if let date = formatter.date(from: "\(editedClosingHour):\(editedClosingMinute)") {
                         closingTime = formatter.string(from: date)
                         onClosingTimeChanged?()
                     }
                 }
-                .disabled(editedClosingTime.isEmpty)
+                .frame(width: 50)
+                .disabled(editedClosingHour.isEmpty || editedClosingMinute.isEmpty)
             }
             Spacer()
         }
         .padding()
         .onAppear {
-            editedClosingTime = closingTime
+            let components = closingTime.components(separatedBy: ":")
+            editedClosingHour = components[0]
+            editedClosingMinute = components[1]
         }
     }
 }

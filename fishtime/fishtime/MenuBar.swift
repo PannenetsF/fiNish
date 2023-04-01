@@ -61,41 +61,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @objc func quit() {
         NSApplication.shared.terminate(self)
     }
-//
-//    func checkTime() {
-//        let now = Date()
-//        let calendar = Calendar.current
-//        let components = calendar.dateComponents([.hour, .minute], from: now)
-//        let currentTime = calendar.date(bySettingHour: components.hour!, minute: components.minute!, second: 0, of: Date())!
-//
-//        let storedClosingTime = UserDefaults.standard.string(forKey: "closingTime")
-//        if let storedClosingTime = storedClosingTime {
-//            closingTime = storedClosingTime
-//        }
-//
-//        // 弹出 "准备下班" 通知
-//        let content = UNMutableNotificationContent()
-//        content.title = "准备下班"
-//        content.sound = UNNotificationSound.default
-//
-//        let formatter = DateFormatter()
-//        formatter.dateFormat = "HH:mm"
-//        let triggerTime = formatter.date(from: closingTime)?.addingTimeInterval(-10 * 60) ?? Date.distantFuture
-//        if currentTime >= triggerTime && currentTime < formatter.date(from: closingTime) ?? Date.distantFuture {
-//            let triggerDate = Calendar.current.dateComponents([.year,.month,.day,.hour,.minute,.second,], from: triggerTime)
-//            let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate, repeats: false)
-//            let request = UNNotificationRequest(identifier: "prepareForLeaving", content: content, trigger: trigger)
-//            UNUserNotificationCenter.current().add(request)
-//        }
-//
-//        // 锁定屏幕
-//        if currentTime >= formatter.date(from: closingTime) ?? Date.distantFuture {
-//            DispatchQueue.global(qos: .background).async {
-//                let appleScript = NSAppleScript(source: "tell application \"System Events\" to keystroke \"q\" using {command down, control down, option down}")
-//                appleScript?.executeAndReturnError(nil)
-//            }
-//        }
-//    }
+
     func checkTime() {
         let now = Date()
         let calendar = Calendar.current
@@ -130,10 +96,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             if triggered == true {
                 triggered = false
             }
-//            DispatchQueue.global(qos: .background).async {
-//                let appleScript = NSAppleScript(source: "tell application \"System Events\" to keystroke \"q\" using {command down, control down}")
-//                appleScript?.executeAndReturnError(nil)
-//            }
             print("lock lock")
             let alert = NSAlert()
             alert.messageText = "确认锁屏？"
