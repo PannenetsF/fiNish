@@ -7,62 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC944A6E29D7E29200FD1F83 /* fishtimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A6D29D7E29200FD1F83 /* fishtimeApp.swift */; };
-		CC944A7029D7E29200FD1F83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A6F29D7E29200FD1F83 /* ContentView.swift */; };
-		CC944A7229D7E29400FD1F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC944A7129D7E29400FD1F83 /* Assets.xcassets */; };
-		CC944A7529D7E29400FD1F83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC944A7429D7E29400FD1F83 /* Preview Assets.xcassets */; };
-		CC944A8029D7E29400FD1F83 /* fishtimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A7F29D7E29400FD1F83 /* fishtimeTests.swift */; };
-		CC944A8A29D7E29400FD1F83 /* fishtimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A8929D7E29400FD1F83 /* fishtimeUITests.swift */; };
-		CC944A8C29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A8B29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift */; };
+		CC944AA529D7E2E300FD1F83 /* fishtimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944AA429D7E2E300FD1F83 /* fishtimeApp.swift */; };
+		CC944AA729D7E2E300FD1F83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944AA629D7E2E300FD1F83 /* ContentView.swift */; };
+		CC944AA929D7E2E400FD1F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC944AA829D7E2E400FD1F83 /* Assets.xcassets */; };
+		CC944AAC29D7E2E400FD1F83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC944AAB29D7E2E400FD1F83 /* Preview Assets.xcassets */; };
+		CC944AB729D7E2E400FD1F83 /* fishtimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944AB629D7E2E400FD1F83 /* fishtimeTests.swift */; };
+		CC944AC129D7E2E400FD1F83 /* fishtimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944AC029D7E2E400FD1F83 /* fishtimeUITests.swift */; };
+		CC944AC329D7E2E400FD1F83 /* fishtimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944AC229D7E2E400FD1F83 /* fishtimeUITestsLaunchTests.swift */; };
+		CC944AD229D7E33A00FD1F83 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944AD129D7E33A00FD1F83 /* MenuBar.swift */; };
+		CC944AD629D7E3BA00FD1F83 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944AD529D7E3BA00FD1F83 /* SettingView.swift */; };
+		CC944AD829D7F88600FD1F83 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC944AD729D7F88600FD1F83 /* info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CC944A7C29D7E29400FD1F83 /* PBXContainerItemProxy */ = {
+		CC944AB329D7E2E400FD1F83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CC944A6229D7E29200FD1F83 /* Project object */;
+			containerPortal = CC944A9929D7E2E300FD1F83 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CC944A6929D7E29200FD1F83;
+			remoteGlobalIDString = CC944AA029D7E2E300FD1F83;
 			remoteInfo = fishtime;
 		};
-		CC944A8629D7E29400FD1F83 /* PBXContainerItemProxy */ = {
+		CC944ABD29D7E2E400FD1F83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CC944A6229D7E29200FD1F83 /* Project object */;
+			containerPortal = CC944A9929D7E2E300FD1F83 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CC944A6929D7E29200FD1F83;
+			remoteGlobalIDString = CC944AA029D7E2E300FD1F83;
 			remoteInfo = fishtime;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC944A6A29D7E29200FD1F83 /* fishtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC944A6D29D7E29200FD1F83 /* fishtimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeApp.swift; sourceTree = "<group>"; };
-		CC944A6F29D7E29200FD1F83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CC944A7129D7E29400FD1F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC944A7429D7E29400FD1F83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CC944A7629D7E29400FD1F83 /* fishtime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fishtime.entitlements; sourceTree = "<group>"; };
-		CC944A7B29D7E29400FD1F83 /* fishtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC944A7F29D7E29400FD1F83 /* fishtimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeTests.swift; sourceTree = "<group>"; };
-		CC944A8529D7E29400FD1F83 /* fishtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC944A8929D7E29400FD1F83 /* fishtimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITests.swift; sourceTree = "<group>"; };
-		CC944A8B29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC944AA129D7E2E300FD1F83 /* fishtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944AA429D7E2E300FD1F83 /* fishtimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeApp.swift; sourceTree = "<group>"; };
+		CC944AA629D7E2E300FD1F83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC944AA829D7E2E400FD1F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC944AAB29D7E2E400FD1F83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC944AAD29D7E2E400FD1F83 /* fishtime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fishtime.entitlements; sourceTree = "<group>"; };
+		CC944AB229D7E2E400FD1F83 /* fishtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944AB629D7E2E400FD1F83 /* fishtimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeTests.swift; sourceTree = "<group>"; };
+		CC944ABC29D7E2E400FD1F83 /* fishtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944AC029D7E2E400FD1F83 /* fishtimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITests.swift; sourceTree = "<group>"; };
+		CC944AC229D7E2E400FD1F83 /* fishtimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC944AD129D7E33A00FD1F83 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		CC944AD529D7E3BA00FD1F83 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		CC944AD729D7F88600FD1F83 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC944A6729D7E29200FD1F83 /* Frameworks */ = {
+		CC944A9E29D7E2E300FD1F83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC944A7829D7E29400FD1F83 /* Frameworks */ = {
+		CC944AAF29D7E2E400FD1F83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC944A8229D7E29400FD1F83 /* Frameworks */ = {
+		CC944AB929D7E2E400FD1F83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,59 +78,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC944A6129D7E29200FD1F83 = {
+		CC944A9829D7E2E300FD1F83 = {
 			isa = PBXGroup;
 			children = (
-				CC944A6C29D7E29200FD1F83 /* fishtime */,
-				CC944A7E29D7E29400FD1F83 /* fishtimeTests */,
-				CC944A8829D7E29400FD1F83 /* fishtimeUITests */,
-				CC944A6B29D7E29200FD1F83 /* Products */,
+				CC944AD729D7F88600FD1F83 /* info.plist */,
+				CC944AA329D7E2E300FD1F83 /* fishtime */,
+				CC944AB529D7E2E400FD1F83 /* fishtimeTests */,
+				CC944ABF29D7E2E400FD1F83 /* fishtimeUITests */,
+				CC944AA229D7E2E300FD1F83 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CC944A6B29D7E29200FD1F83 /* Products */ = {
+		CC944AA229D7E2E300FD1F83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC944A6A29D7E29200FD1F83 /* fishtime.app */,
-				CC944A7B29D7E29400FD1F83 /* fishtimeTests.xctest */,
-				CC944A8529D7E29400FD1F83 /* fishtimeUITests.xctest */,
+				CC944AA129D7E2E300FD1F83 /* fishtime.app */,
+				CC944AB229D7E2E400FD1F83 /* fishtimeTests.xctest */,
+				CC944ABC29D7E2E400FD1F83 /* fishtimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC944A6C29D7E29200FD1F83 /* fishtime */ = {
+		CC944AA329D7E2E300FD1F83 /* fishtime */ = {
 			isa = PBXGroup;
 			children = (
-				CC944A6D29D7E29200FD1F83 /* fishtimeApp.swift */,
-				CC944A6F29D7E29200FD1F83 /* ContentView.swift */,
-				CC944A7129D7E29400FD1F83 /* Assets.xcassets */,
-				CC944A7629D7E29400FD1F83 /* fishtime.entitlements */,
-				CC944A7329D7E29400FD1F83 /* Preview Content */,
+				CC944AA429D7E2E300FD1F83 /* fishtimeApp.swift */,
+				CC944AA629D7E2E300FD1F83 /* ContentView.swift */,
+				CC944AD529D7E3BA00FD1F83 /* SettingView.swift */,
+				CC944AD129D7E33A00FD1F83 /* MenuBar.swift */,
+				CC944AA829D7E2E400FD1F83 /* Assets.xcassets */,
+				CC944AAD29D7E2E400FD1F83 /* fishtime.entitlements */,
+				CC944AAA29D7E2E400FD1F83 /* Preview Content */,
 			);
 			path = fishtime;
 			sourceTree = "<group>";
 		};
-		CC944A7329D7E29400FD1F83 /* Preview Content */ = {
+		CC944AAA29D7E2E400FD1F83 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CC944A7429D7E29400FD1F83 /* Preview Assets.xcassets */,
+				CC944AAB29D7E2E400FD1F83 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CC944A7E29D7E29400FD1F83 /* fishtimeTests */ = {
+		CC944AB529D7E2E400FD1F83 /* fishtimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				CC944A7F29D7E29400FD1F83 /* fishtimeTests.swift */,
+				CC944AB629D7E2E400FD1F83 /* fishtimeTests.swift */,
 			);
 			path = fishtimeTests;
 			sourceTree = "<group>";
 		};
-		CC944A8829D7E29400FD1F83 /* fishtimeUITests */ = {
+		CC944ABF29D7E2E400FD1F83 /* fishtimeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CC944A8929D7E29400FD1F83 /* fishtimeUITests.swift */,
-				CC944A8B29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift */,
+				CC944AC029D7E2E400FD1F83 /* fishtimeUITests.swift */,
+				CC944AC229D7E2E400FD1F83 /* fishtimeUITestsLaunchTests.swift */,
 			);
 			path = fishtimeUITests;
 			sourceTree = "<group>";
@@ -132,13 +141,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC944A6929D7E29200FD1F83 /* fishtime */ = {
+		CC944AA029D7E2E300FD1F83 /* fishtime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC944A8F29D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */;
+			buildConfigurationList = CC944AC629D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */;
 			buildPhases = (
-				CC944A6629D7E29200FD1F83 /* Sources */,
-				CC944A6729D7E29200FD1F83 /* Frameworks */,
-				CC944A6829D7E29200FD1F83 /* Resources */,
+				CC944A9D29D7E2E300FD1F83 /* Sources */,
+				CC944A9E29D7E2E300FD1F83 /* Frameworks */,
+				CC944A9F29D7E2E300FD1F83 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,69 +155,69 @@
 			);
 			name = fishtime;
 			productName = fishtime;
-			productReference = CC944A6A29D7E29200FD1F83 /* fishtime.app */;
+			productReference = CC944AA129D7E2E300FD1F83 /* fishtime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CC944A7A29D7E29400FD1F83 /* fishtimeTests */ = {
+		CC944AB129D7E2E400FD1F83 /* fishtimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC944A9229D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */;
+			buildConfigurationList = CC944AC929D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */;
 			buildPhases = (
-				CC944A7729D7E29400FD1F83 /* Sources */,
-				CC944A7829D7E29400FD1F83 /* Frameworks */,
-				CC944A7929D7E29400FD1F83 /* Resources */,
+				CC944AAE29D7E2E400FD1F83 /* Sources */,
+				CC944AAF29D7E2E400FD1F83 /* Frameworks */,
+				CC944AB029D7E2E400FD1F83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC944A7D29D7E29400FD1F83 /* PBXTargetDependency */,
+				CC944AB429D7E2E400FD1F83 /* PBXTargetDependency */,
 			);
 			name = fishtimeTests;
 			productName = fishtimeTests;
-			productReference = CC944A7B29D7E29400FD1F83 /* fishtimeTests.xctest */;
+			productReference = CC944AB229D7E2E400FD1F83 /* fishtimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC944A8429D7E29400FD1F83 /* fishtimeUITests */ = {
+		CC944ABB29D7E2E400FD1F83 /* fishtimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC944A9529D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */;
+			buildConfigurationList = CC944ACC29D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */;
 			buildPhases = (
-				CC944A8129D7E29400FD1F83 /* Sources */,
-				CC944A8229D7E29400FD1F83 /* Frameworks */,
-				CC944A8329D7E29400FD1F83 /* Resources */,
+				CC944AB829D7E2E400FD1F83 /* Sources */,
+				CC944AB929D7E2E400FD1F83 /* Frameworks */,
+				CC944ABA29D7E2E400FD1F83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC944A8729D7E29400FD1F83 /* PBXTargetDependency */,
+				CC944ABE29D7E2E400FD1F83 /* PBXTargetDependency */,
 			);
 			name = fishtimeUITests;
 			productName = fishtimeUITests;
-			productReference = CC944A8529D7E29400FD1F83 /* fishtimeUITests.xctest */;
+			productReference = CC944ABC29D7E2E400FD1F83 /* fishtimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CC944A6229D7E29200FD1F83 /* Project object */ = {
+		CC944A9929D7E2E300FD1F83 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					CC944A6929D7E29200FD1F83 = {
+					CC944AA029D7E2E300FD1F83 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					CC944A7A29D7E29400FD1F83 = {
+					CC944AB129D7E2E400FD1F83 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = CC944A6929D7E29200FD1F83;
+						TestTargetID = CC944AA029D7E2E300FD1F83;
 					};
-					CC944A8429D7E29400FD1F83 = {
+					CC944ABB29D7E2E400FD1F83 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = CC944A6929D7E29200FD1F83;
+						TestTargetID = CC944AA029D7E2E300FD1F83;
 					};
 				};
 			};
-			buildConfigurationList = CC944A6529D7E29200FD1F83 /* Build configuration list for PBXProject "fishtime" */;
+			buildConfigurationList = CC944A9C29D7E2E300FD1F83 /* Build configuration list for PBXProject "fishtime" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +225,37 @@
 				en,
 				Base,
 			);
-			mainGroup = CC944A6129D7E29200FD1F83;
-			productRefGroup = CC944A6B29D7E29200FD1F83 /* Products */;
+			mainGroup = CC944A9829D7E2E300FD1F83;
+			productRefGroup = CC944AA229D7E2E300FD1F83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC944A6929D7E29200FD1F83 /* fishtime */,
-				CC944A7A29D7E29400FD1F83 /* fishtimeTests */,
-				CC944A8429D7E29400FD1F83 /* fishtimeUITests */,
+				CC944AA029D7E2E300FD1F83 /* fishtime */,
+				CC944AB129D7E2E400FD1F83 /* fishtimeTests */,
+				CC944ABB29D7E2E400FD1F83 /* fishtimeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC944A6829D7E29200FD1F83 /* Resources */ = {
+		CC944A9F29D7E2E300FD1F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC944A7529D7E29400FD1F83 /* Preview Assets.xcassets in Resources */,
-				CC944A7229D7E29400FD1F83 /* Assets.xcassets in Resources */,
+				CC944AAC29D7E2E400FD1F83 /* Preview Assets.xcassets in Resources */,
+				CC944AA929D7E2E400FD1F83 /* Assets.xcassets in Resources */,
+				CC944AD829D7F88600FD1F83 /* info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC944A7929D7E29400FD1F83 /* Resources */ = {
+		CC944AB029D7E2E400FD1F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC944A8329D7E29400FD1F83 /* Resources */ = {
+		CC944ABA29D7E2E400FD1F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +265,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC944A6629D7E29200FD1F83 /* Sources */ = {
+		CC944A9D29D7E2E300FD1F83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC944A7029D7E29200FD1F83 /* ContentView.swift in Sources */,
-				CC944A6E29D7E29200FD1F83 /* fishtimeApp.swift in Sources */,
+				CC944AA729D7E2E300FD1F83 /* ContentView.swift in Sources */,
+				CC944AD629D7E3BA00FD1F83 /* SettingView.swift in Sources */,
+				CC944AD229D7E33A00FD1F83 /* MenuBar.swift in Sources */,
+				CC944AA529D7E2E300FD1F83 /* fishtimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC944A7729D7E29400FD1F83 /* Sources */ = {
+		CC944AAE29D7E2E400FD1F83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC944A8029D7E29400FD1F83 /* fishtimeTests.swift in Sources */,
+				CC944AB729D7E2E400FD1F83 /* fishtimeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC944A8129D7E29400FD1F83 /* Sources */ = {
+		CC944AB829D7E2E400FD1F83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC944A8C29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift in Sources */,
-				CC944A8A29D7E29400FD1F83 /* fishtimeUITests.swift in Sources */,
+				CC944AC329D7E2E400FD1F83 /* fishtimeUITestsLaunchTests.swift in Sources */,
+				CC944AC129D7E2E400FD1F83 /* fishtimeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CC944A7D29D7E29400FD1F83 /* PBXTargetDependency */ = {
+		CC944AB429D7E2E400FD1F83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC944A6929D7E29200FD1F83 /* fishtime */;
-			targetProxy = CC944A7C29D7E29400FD1F83 /* PBXContainerItemProxy */;
+			target = CC944AA029D7E2E300FD1F83 /* fishtime */;
+			targetProxy = CC944AB329D7E2E400FD1F83 /* PBXContainerItemProxy */;
 		};
-		CC944A8729D7E29400FD1F83 /* PBXTargetDependency */ = {
+		CC944ABE29D7E2E400FD1F83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC944A6929D7E29200FD1F83 /* fishtime */;
-			targetProxy = CC944A8629D7E29400FD1F83 /* PBXContainerItemProxy */;
+			target = CC944AA029D7E2E300FD1F83 /* fishtime */;
+			targetProxy = CC944ABD29D7E2E400FD1F83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CC944A8D29D7E29400FD1F83 /* Debug */ = {
+		CC944AC429D7E2E400FD1F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +369,7 @@
 			};
 			name = Debug;
 		};
-		CC944A8E29D7E29400FD1F83 /* Release */ = {
+		CC944AC529D7E2E400FD1F83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,7 +422,7 @@
 			};
 			name = Release;
 		};
-		CC944A9029D7E29400FD1F83 /* Debug */ = {
+		CC944AC729D7E2E400FD1F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -435,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		CC944A9129D7E29400FD1F83 /* Release */ = {
+		CC944AC829D7E2E400FD1F83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +472,7 @@
 			};
 			name = Release;
 		};
-		CC944A9329D7E29400FD1F83 /* Debug */ = {
+		CC944ACA29D7E2E400FD1F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		CC944A9429D7E29400FD1F83 /* Release */ = {
+		CC944ACB29D7E2E400FD1F83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,7 +508,7 @@
 			};
 			name = Release;
 		};
-		CC944A9629D7E29400FD1F83 /* Debug */ = {
+		CC944ACD29D7E2E400FD1F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +524,7 @@
 			};
 			name = Debug;
 		};
-		CC944A9729D7E29400FD1F83 /* Release */ = {
+		CC944ACE29D7E2E400FD1F83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -531,43 +543,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC944A6529D7E29200FD1F83 /* Build configuration list for PBXProject "fishtime" */ = {
+		CC944A9C29D7E2E300FD1F83 /* Build configuration list for PBXProject "fishtime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC944A8D29D7E29400FD1F83 /* Debug */,
-				CC944A8E29D7E29400FD1F83 /* Release */,
+				CC944AC429D7E2E400FD1F83 /* Debug */,
+				CC944AC529D7E2E400FD1F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC944A8F29D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */ = {
+		CC944AC629D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC944A9029D7E29400FD1F83 /* Debug */,
-				CC944A9129D7E29400FD1F83 /* Release */,
+				CC944AC729D7E2E400FD1F83 /* Debug */,
+				CC944AC829D7E2E400FD1F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC944A9229D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */ = {
+		CC944AC929D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC944A9329D7E29400FD1F83 /* Debug */,
-				CC944A9429D7E29400FD1F83 /* Release */,
+				CC944ACA29D7E2E400FD1F83 /* Debug */,
+				CC944ACB29D7E2E400FD1F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC944A9529D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */ = {
+		CC944ACC29D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC944A9629D7E29400FD1F83 /* Debug */,
-				CC944A9729D7E29400FD1F83 /* Release */,
+				CC944ACD29D7E2E400FD1F83 /* Debug */,
+				CC944ACE29D7E2E400FD1F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CC944A6229D7E29200FD1F83 /* Project object */;
+	rootObject = CC944A9929D7E2E300FD1F83 /* Project object */;
 }
