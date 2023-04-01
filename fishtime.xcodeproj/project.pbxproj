@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC944A6E29D7E29200FD1F83 /* fishtimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A6D29D7E29200FD1F83 /* fishtimeApp.swift */; };
+		CC944A7029D7E29200FD1F83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A6F29D7E29200FD1F83 /* ContentView.swift */; };
+		CC944A7229D7E29400FD1F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC944A7129D7E29400FD1F83 /* Assets.xcassets */; };
+		CC944A7529D7E29400FD1F83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC944A7429D7E29400FD1F83 /* Preview Assets.xcassets */; };
+		CC944A8029D7E29400FD1F83 /* fishtimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A7F29D7E29400FD1F83 /* fishtimeTests.swift */; };
+		CC944A8A29D7E29400FD1F83 /* fishtimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A8929D7E29400FD1F83 /* fishtimeUITests.swift */; };
+		CC944A8C29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC944A8B29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC944A7C29D7E29400FD1F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC944A6229D7E29200FD1F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC944A6929D7E29200FD1F83;
+			remoteInfo = fishtime;
+		};
+		CC944A8629D7E29400FD1F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC944A6229D7E29200FD1F83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC944A6929D7E29200FD1F83;
+			remoteInfo = fishtime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC944A6A29D7E29200FD1F83 /* fishtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944A6D29D7E29200FD1F83 /* fishtimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeApp.swift; sourceTree = "<group>"; };
+		CC944A6F29D7E29200FD1F83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC944A7129D7E29400FD1F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC944A7429D7E29400FD1F83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC944A7629D7E29400FD1F83 /* fishtime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fishtime.entitlements; sourceTree = "<group>"; };
+		CC944A7B29D7E29400FD1F83 /* fishtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944A7F29D7E29400FD1F83 /* fishtimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeTests.swift; sourceTree = "<group>"; };
+		CC944A8529D7E29400FD1F83 /* fishtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944A8929D7E29400FD1F83 /* fishtimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITests.swift; sourceTree = "<group>"; };
+		CC944A8B29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC944A6729D7E29200FD1F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC944A7829D7E29400FD1F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC944A8229D7E29400FD1F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC944A6129D7E29200FD1F83 = {
+			isa = PBXGroup;
+			children = (
+				CC944A6C29D7E29200FD1F83 /* fishtime */,
+				CC944A7E29D7E29400FD1F83 /* fishtimeTests */,
+				CC944A8829D7E29400FD1F83 /* fishtimeUITests */,
+				CC944A6B29D7E29200FD1F83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC944A6B29D7E29200FD1F83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC944A6A29D7E29200FD1F83 /* fishtime.app */,
+				CC944A7B29D7E29400FD1F83 /* fishtimeTests.xctest */,
+				CC944A8529D7E29400FD1F83 /* fishtimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC944A6C29D7E29200FD1F83 /* fishtime */ = {
+			isa = PBXGroup;
+			children = (
+				CC944A6D29D7E29200FD1F83 /* fishtimeApp.swift */,
+				CC944A6F29D7E29200FD1F83 /* ContentView.swift */,
+				CC944A7129D7E29400FD1F83 /* Assets.xcassets */,
+				CC944A7629D7E29400FD1F83 /* fishtime.entitlements */,
+				CC944A7329D7E29400FD1F83 /* Preview Content */,
+			);
+			path = fishtime;
+			sourceTree = "<group>";
+		};
+		CC944A7329D7E29400FD1F83 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC944A7429D7E29400FD1F83 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC944A7E29D7E29400FD1F83 /* fishtimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC944A7F29D7E29400FD1F83 /* fishtimeTests.swift */,
+			);
+			path = fishtimeTests;
+			sourceTree = "<group>";
+		};
+		CC944A8829D7E29400FD1F83 /* fishtimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC944A8929D7E29400FD1F83 /* fishtimeUITests.swift */,
+				CC944A8B29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift */,
+			);
+			path = fishtimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC944A6929D7E29200FD1F83 /* fishtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC944A8F29D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */;
+			buildPhases = (
+				CC944A6629D7E29200FD1F83 /* Sources */,
+				CC944A6729D7E29200FD1F83 /* Frameworks */,
+				CC944A6829D7E29200FD1F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishtime;
+			productName = fishtime;
+			productReference = CC944A6A29D7E29200FD1F83 /* fishtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC944A7A29D7E29400FD1F83 /* fishtimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC944A9229D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */;
+			buildPhases = (
+				CC944A7729D7E29400FD1F83 /* Sources */,
+				CC944A7829D7E29400FD1F83 /* Frameworks */,
+				CC944A7929D7E29400FD1F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC944A7D29D7E29400FD1F83 /* PBXTargetDependency */,
+			);
+			name = fishtimeTests;
+			productName = fishtimeTests;
+			productReference = CC944A7B29D7E29400FD1F83 /* fishtimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC944A8429D7E29400FD1F83 /* fishtimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC944A9529D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */;
+			buildPhases = (
+				CC944A8129D7E29400FD1F83 /* Sources */,
+				CC944A8229D7E29400FD1F83 /* Frameworks */,
+				CC944A8329D7E29400FD1F83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC944A8729D7E29400FD1F83 /* PBXTargetDependency */,
+			);
+			name = fishtimeUITests;
+			productName = fishtimeUITests;
+			productReference = CC944A8529D7E29400FD1F83 /* fishtimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC944A6229D7E29200FD1F83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CC944A6929D7E29200FD1F83 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CC944A7A29D7E29400FD1F83 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CC944A6929D7E29200FD1F83;
+					};
+					CC944A8429D7E29400FD1F83 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CC944A6929D7E29200FD1F83;
+					};
+				};
+			};
+			buildConfigurationList = CC944A6529D7E29200FD1F83 /* Build configuration list for PBXProject "fishtime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC944A6129D7E29200FD1F83;
+			productRefGroup = CC944A6B29D7E29200FD1F83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC944A6929D7E29200FD1F83 /* fishtime */,
+				CC944A7A29D7E29400FD1F83 /* fishtimeTests */,
+				CC944A8429D7E29400FD1F83 /* fishtimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC944A6829D7E29200FD1F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC944A7529D7E29400FD1F83 /* Preview Assets.xcassets in Resources */,
+				CC944A7229D7E29400FD1F83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC944A7929D7E29400FD1F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC944A8329D7E29400FD1F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC944A6629D7E29200FD1F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC944A7029D7E29200FD1F83 /* ContentView.swift in Sources */,
+				CC944A6E29D7E29200FD1F83 /* fishtimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC944A7729D7E29400FD1F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC944A8029D7E29400FD1F83 /* fishtimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC944A8129D7E29400FD1F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC944A8C29D7E29400FD1F83 /* fishtimeUITestsLaunchTests.swift in Sources */,
+				CC944A8A29D7E29400FD1F83 /* fishtimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC944A7D29D7E29400FD1F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC944A6929D7E29200FD1F83 /* fishtime */;
+			targetProxy = CC944A7C29D7E29400FD1F83 /* PBXContainerItemProxy */;
+		};
+		CC944A8729D7E29400FD1F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC944A6929D7E29200FD1F83 /* fishtime */;
+			targetProxy = CC944A8629D7E29400FD1F83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC944A8D29D7E29400FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC944A8E29D7E29400FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CC944A9029D7E29400FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fishtime/fishtime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fishtime/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pannenetsf.fishtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC944A9129D7E29400FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fishtime/fishtime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fishtime/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pannenetsf.fishtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CC944A9329D7E29400FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pannenetsf.fishtimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishtime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fishtime";
+			};
+			name = Debug;
+		};
+		CC944A9429D7E29400FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pannenetsf.fishtimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishtime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fishtime";
+			};
+			name = Release;
+		};
+		CC944A9629D7E29400FD1F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pannenetsf.fishtimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = fishtime;
+			};
+			name = Debug;
+		};
+		CC944A9729D7E29400FD1F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pannenetsf.fishtimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = fishtime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC944A6529D7E29200FD1F83 /* Build configuration list for PBXProject "fishtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC944A8D29D7E29400FD1F83 /* Debug */,
+				CC944A8E29D7E29400FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC944A8F29D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC944A9029D7E29400FD1F83 /* Debug */,
+				CC944A9129D7E29400FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC944A9229D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC944A9329D7E29400FD1F83 /* Debug */,
+				CC944A9429D7E29400FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC944A9529D7E29400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC944A9629D7E29400FD1F83 /* Debug */,
+				CC944A9729D7E29400FD1F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC944A6229D7E29200FD1F83 /* Project object */;
+}
