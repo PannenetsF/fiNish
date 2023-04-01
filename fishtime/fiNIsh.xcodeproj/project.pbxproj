@@ -37,15 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC944AA129D7E2E300FD1F83 /* fishtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944AA129D7E2E300FD1F83 /* fiNIsh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fiNIsh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC944AA429D7E2E300FD1F83 /* fishtimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeApp.swift; sourceTree = "<group>"; };
 		CC944AA629D7E2E300FD1F83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC944AA829D7E2E400FD1F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC944AAB29D7E2E400FD1F83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC944AAD29D7E2E400FD1F83 /* fishtime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fishtime.entitlements; sourceTree = "<group>"; };
-		CC944AB229D7E2E400FD1F83 /* fishtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944AB229D7E2E400FD1F83 /* fiNIshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiNIshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC944AB629D7E2E400FD1F83 /* fishtimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeTests.swift; sourceTree = "<group>"; };
-		CC944ABC29D7E2E400FD1F83 /* fishtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC944ABC29D7E2E400FD1F83 /* fiNIshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiNIshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC944AC029D7E2E400FD1F83 /* fishtimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITests.swift; sourceTree = "<group>"; };
 		CC944AC229D7E2E400FD1F83 /* fishtimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishtimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC944AD129D7E33A00FD1F83 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
@@ -92,9 +92,9 @@
 		CC944AA229D7E2E300FD1F83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC944AA129D7E2E300FD1F83 /* fishtime.app */,
-				CC944AB229D7E2E400FD1F83 /* fishtimeTests.xctest */,
-				CC944ABC29D7E2E400FD1F83 /* fishtimeUITests.xctest */,
+				CC944AA129D7E2E300FD1F83 /* fiNIsh.app */,
+				CC944AB229D7E2E400FD1F83 /* fiNIshTests.xctest */,
+				CC944ABC29D7E2E400FD1F83 /* fiNIshUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC944AA029D7E2E300FD1F83 /* fishtime */ = {
+		CC944AA029D7E2E300FD1F83 /* fiNIsh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC944AC629D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */;
+			buildConfigurationList = CC944AC629D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fiNIsh" */;
 			buildPhases = (
 				CC944A9D29D7E2E300FD1F83 /* Sources */,
 				CC944A9E29D7E2E300FD1F83 /* Frameworks */,
@@ -153,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = fishtime;
+			name = fiNIsh;
 			productName = fishtime;
-			productReference = CC944AA129D7E2E300FD1F83 /* fishtime.app */;
+			productReference = CC944AA129D7E2E300FD1F83 /* fiNIsh.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CC944AB129D7E2E400FD1F83 /* fishtimeTests */ = {
+		CC944AB129D7E2E400FD1F83 /* fiNIshTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC944AC929D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */;
+			buildConfigurationList = CC944AC929D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fiNIshTests" */;
 			buildPhases = (
 				CC944AAE29D7E2E400FD1F83 /* Sources */,
 				CC944AAF29D7E2E400FD1F83 /* Frameworks */,
@@ -171,14 +171,14 @@
 			dependencies = (
 				CC944AB429D7E2E400FD1F83 /* PBXTargetDependency */,
 			);
-			name = fishtimeTests;
+			name = fiNIshTests;
 			productName = fishtimeTests;
-			productReference = CC944AB229D7E2E400FD1F83 /* fishtimeTests.xctest */;
+			productReference = CC944AB229D7E2E400FD1F83 /* fiNIshTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC944ABB29D7E2E400FD1F83 /* fishtimeUITests */ = {
+		CC944ABB29D7E2E400FD1F83 /* fiNIshUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC944ACC29D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */;
+			buildConfigurationList = CC944ACC29D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fiNIshUITests" */;
 			buildPhases = (
 				CC944AB829D7E2E400FD1F83 /* Sources */,
 				CC944AB929D7E2E400FD1F83 /* Frameworks */,
@@ -189,9 +189,9 @@
 			dependencies = (
 				CC944ABE29D7E2E400FD1F83 /* PBXTargetDependency */,
 			);
-			name = fishtimeUITests;
+			name = fiNIshUITests;
 			productName = fishtimeUITests;
-			productReference = CC944ABC29D7E2E400FD1F83 /* fishtimeUITests.xctest */;
+			productReference = CC944ABC29D7E2E400FD1F83 /* fiNIshUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC944A9C29D7E2E300FD1F83 /* Build configuration list for PBXProject "fishtime" */;
+			buildConfigurationList = CC944A9C29D7E2E300FD1F83 /* Build configuration list for PBXProject "fiNIsh" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC944AA029D7E2E300FD1F83 /* fishtime */,
-				CC944AB129D7E2E400FD1F83 /* fishtimeTests */,
-				CC944ABB29D7E2E400FD1F83 /* fishtimeUITests */,
+				CC944AA029D7E2E300FD1F83 /* fiNIsh */,
+				CC944AB129D7E2E400FD1F83 /* fiNIshTests */,
+				CC944ABB29D7E2E400FD1F83 /* fiNIshUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		CC944AB429D7E2E400FD1F83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC944AA029D7E2E300FD1F83 /* fishtime */;
+			target = CC944AA029D7E2E300FD1F83 /* fiNIsh */;
 			targetProxy = CC944AB329D7E2E400FD1F83 /* PBXContainerItemProxy */;
 		};
 		CC944ABE29D7E2E400FD1F83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC944AA029D7E2E300FD1F83 /* fishtime */;
+			target = CC944AA029D7E2E300FD1F83 /* fiNIsh */;
 			targetProxy = CC944ABD29D7E2E400FD1F83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -413,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -488,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishtime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fishtime";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiNIsh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fiNIsh";
 			};
 			name = Debug;
 		};
@@ -506,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishtime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fishtime";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiNIsh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fiNIsh";
 			};
 			name = Release;
 		};
@@ -545,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC944A9C29D7E2E300FD1F83 /* Build configuration list for PBXProject "fishtime" */ = {
+		CC944A9C29D7E2E300FD1F83 /* Build configuration list for PBXProject "fiNIsh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC944AC429D7E2E400FD1F83 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC944AC629D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtime" */ = {
+		CC944AC629D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fiNIsh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC944AC729D7E2E400FD1F83 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC944AC929D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeTests" */ = {
+		CC944AC929D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fiNIshTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC944ACA29D7E2E400FD1F83 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC944ACC29D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fishtimeUITests" */ = {
+		CC944ACC29D7E2E400FD1F83 /* Build configuration list for PBXNativeTarget "fiNIshUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC944ACD29D7E2E400FD1F83 /* Debug */,

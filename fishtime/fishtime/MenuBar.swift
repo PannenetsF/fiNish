@@ -7,6 +7,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBarItem: NSStatusItem!
     var closingTime: String = "23:00"
     var triggered: Bool = false
+    var lastTrigger: Int = -1
+    var nextTrigger: Int = -1
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // 创建状态栏项目
@@ -25,7 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let storedClosingTime = storedClosingTime {
             closingTime = storedClosingTime
         }
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { _, error in
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { _, error in
             if let error = error {
                 print("Error: \(error)")
             }
@@ -78,24 +80,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let content = UNMutableNotificationContent()
         content.title = "准备下班"
         content.sound = UNNotificationSound.default
-
+        content.badge = 1
+        
         let closingTimeComponents = closingTime.split(separator: ":").map { Int($0)! }
         let closingTimeInMinutes = closingTimeComponents[0] * 60 + closingTimeComponents[1]
         let triggerTimeInMinutes = closingTimeInMinutes - 10
 
         if currentTimeInMinutes >= triggerTimeInMinutes && currentTimeInMinutes < closingTimeInMinutes && triggered == false {
-            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 2, repeats: false)
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
             let request = UNNotificationRequest(identifier: "prepareForLeaving", content: content, trigger: trigger)
             triggered = true
-            // 锁定屏幕
             UNUserNotificationCenter.current().add(request)
             print("Noted Noted")
         }
 
-        if currentTimeInMinutes >= closingTimeInMinutes && triggered {
-            if triggered == true {
-                triggered = false
-            }
+        if currentTimeInMinutes >= closingTimeInMinutes && triggered && (lastTrigger > 0 && currentTimeInMinutes > lastTrigger + 8) {
             print("lock lock")
             let alert = NSAlert()
             alert.messageText = "确认锁屏？"
@@ -104,6 +103,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             alert.addButton(withTitle: "取消")
             let response = alert.runModal()
             if response == NSApplication.ModalResponse.alertFirstButtonReturn {
+                if triggered == true {
+                    triggered = false
+                    lastTrigger = -1
+                }
                 // 锁定屏幕\
                 print("ls ls")
                 let task = Process()
@@ -111,6 +114,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 task.arguments = ["displaysleepnow"]
                 task.launch()
             }
+        } else {
+            lastTrigger = currentTimeInMinutes
         }
 
     }

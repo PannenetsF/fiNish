@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
 	<key>NSAppleEventsUsageDescriptio</key>
 	<string>请允许此应用程序访问您的 AppleScript 或 shell 脚本，以便可以执行某些功能。</string>
 </dict>
